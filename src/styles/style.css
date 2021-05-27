@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #372F41;
+    width: 100%;
+    height: 100%;
+}
+body h1{
+    font-size: 48px;
+    text-align: center;
+    color: #E7E4EB;
+    margin-top: 69px;
+}
+body .search {
+    width: 70%;
+    height: 100%;
+    margin: 45px auto;
+    background-color: #2C2535;
+    border-radius: 14px;
+    display: flex;
+    color: #524B5B;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    /* position: sticky;
+    top: 0; */
+}
+body input{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    color: #524B5B;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+.search button{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #524B5B;
+    font-size: 18px;
+    font-weight: bold;
+    /* width: 100%; */
+    height: 100%;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+.search button:hover{
+    color: #918C99;
+}
+
+
+.title h1{
+    font-size: 36px;
+    color:#918C99;
+    font-weight: bold;
+}
+
+.title p{
+    font-size: 20px;
+    color:#918C99;
+    font-weight:normal;
+    text-align: center;
+}
+/* .card{
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+} */
+.card .allcase{
+    display: flex;
+    margin: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.allcase .card-1{
+    width: 253px;
+    height: 253px;
+    background-color: #4A4254;
+    text-align: center;
+    margin: 30px;
+}
+.allcase .a{
+    width: 253px;
+    height: 253px;
+    background-color: #4A4254;
+    text-align: center;
+    margin: 20px;
+}
+.allcase .a:hover p{
+    color: yellow;
+}
+.allcase .a:hover i{
+    color: yellow;
+}
+.allcase .b{
+    width: 253px;
+    height: 253px;
+    background-color: #4A4254;
+    text-align: center;
+    margin: 20px;
+}
+.allcase .b:hover p{
+    color: green;
+}
+.allcase .b:hover i{
+    color: green;
+}
+.allcase .c{
+    width: 253px;
+    height: 253px;
+    background-color:#4A4254;
+    text-align: center;
+    margin: 20px;
+}
+.allcase .c:hover P{
+    color: red;
+}
+.allcase .c:hover i{
+    color: red;
+}
+.card-1 h1{
+    font-size: 24px;
+    color: #918C99;
+    margin-top: 31px;
+}
+.card-1 p{
+    font-size: 48px;
+    color: #6C6573;
+    text-align: center;
+    margin-top: 23px;
+    font-weight: bold;
+}
+.card-1 i {
+    font-size: 40px;    
+    color: #6C6573;
+    margin-top: 20px;
+}
+
+.time{
+    font-size: 20px;
+    color: #918C99;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+footer p{
+    font-size: 15px;
+    color: #6C6573;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+footer p::before{
+    content: "";
+    border: 3px solid #4A4254;
+    border-radius: 9px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.time p::before{
+    content: "";
+    border: 3px solid #4A4254;
+    border-radius: 9px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.upButton{
+    display: flex;
+
+}
+.upButton i{
+    text-align: center;
+    position: sticky;
+    /* left: 90%; */
+    top: 0;
+    margin: 20px;
+    font-size: 50px;
+    text-decoration: none;
+}
